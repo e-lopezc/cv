@@ -28,13 +28,13 @@ jobs:
 
       - name: Generate PDF from Markdown
         run: |
-          pandoc cv.md \
+          pandoc cv-eliaslopez.md \
             --pdf-engine=xelatex \
             --variable mainfont="Latin Modern Roman" \
             --variable fontsize=11pt \
             --variable geometry="margin=1in" \
             --variable colorlinks=true \
-            -o cv.pdf
+            -o cv-eliaslopez.pdf
 
       - name: Commit cv.pdf to PR branch
         run: |
