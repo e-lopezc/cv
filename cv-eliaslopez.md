@@ -18,7 +18,7 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 ## Key Achievements
 
 - **FinOps — ~$6,960/year confirmed AWS savings**: Designed first-ever cross-account ECR lifecycle policies; cut dev account cost $22.63 → $4.13/day (-82%), verified via AWS Cost Explorer
-- **Zero-downtime PostgreSQL 13→17 production migration** using native logical replication — pglogical lab dry-run, zero data loss across staging and live
+- **Zero-downtime PostgreSQL 13→17 production migration** using native logical replication — native logical replication lab dry-run, zero data loss across staging and live
 - **Flux/Helm scalability**: Cut helm-controller CPU 91% (596m→56m); EKS spot pools 15→48 across 3 AZs + aws-node-termination-handler graceful drain
 - **2026 AZ DR Failover Exercise**: Full staging + live exercise using deployment-affinity AZ exclusion — audit-ready evidence for enterprise contracts (Citi)
 - **Cloud Cost Sentinel** _(side project)_: Containerised AWS cost scanner (ECS Fargate + EventBridge + Terraform) detecting idle EC2, EBS, RDS, S3 resources with scheduled HTML reports and SNS alerts
@@ -35,7 +35,7 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 - Delivered ~$6,960/year confirmed AWS savings via first-ever cross-account ECR lifecycle policies (dev / live / staging); dev account daily cost $22.63 → $4.13 (-82%), verified via AWS Cost Explorer
 - Consolidated AWS ECR from 2 accounts to 1 across 15+ application repos in a 6-phase rollout; eliminated cross-account replication lag and narrowed OIDC trust to per-repo roles
 - Reduced Datadog log ingest costs by shipping cluster-wide Agent filtering rules across all services in live and citi environments
-- Executed zero-downtime PostgreSQL 13.22 → 17.6 production migration using native logical replication; built pglogical lab for dry-run rehearsals, validated post-cutover with zero data loss across staging and live
+- Executed zero-downtime PostgreSQL 13.22 → 17.6 production migration using native logical replication; built native logical replication lab for dry-run rehearsals, validated post-cutover with zero data loss across staging and live
 - Implemented database permission hierarchies across 20+ production databases; patched silent `ALTER DEFAULT PRIVILEGES` gap across 6 databases preventing analyst-facing privilege drift
 - Upgraded GitHub self-hosted runner infrastructure (terraform-aws-github-runner v6.10.1 → v7.4.0) via blue-green per-tier rollout with zero CI maintenance window; managed Terraform IaC for ECR consolidation groundwork and multi-environment infrastructure provisioning
 - Cut Flux helm-controller CPU by 91% (596m → 56m) by pruning Flux objects for powered-off environments; scaled platform to support 2-3x concurrent demo environments
