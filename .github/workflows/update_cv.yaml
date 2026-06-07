@@ -28,18 +28,18 @@ jobs:
 
       - name: Generate PDF from Markdown
         run: |
-          pandoc cv.md \
+          pandoc cv-eliaslopez.md \
             --pdf-engine=xelatex \
             --variable mainfont="Latin Modern Roman" \
             --variable fontsize=11pt \
             --variable geometry="margin=1in" \
             --variable colorlinks=true \
-            -o cv.pdf
+            -o cv-eliaslopez.pdf
 
       - name: Commit cv.pdf to PR branch
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cv.pdf
-          git diff --cached --quiet || git commit -m "chore: regenerate cv.pdf [skip ci]"
+          git add cv-eliaslopez.pdf
+          git diff --cached --quiet || git commit -m "regenerate cv-eliaslopez.pdf"
           git push
