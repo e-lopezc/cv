@@ -20,7 +20,7 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 - **FinOps — ~$6,960/year confirmed AWS savings**: Designed first-ever cross-account ECR lifecycle policies; cut dev account cost $22.63 → $4.13/day (-82%), verified via AWS Cost Explorer
 - **Zero-downtime PostgreSQL 13→17 production migration** using native logical replication — native logical replication lab dry-run, zero data loss across staging and live
 - **Flux/Helm scalability**: Cut helm-controller CPU 91% (596m→56m); EKS spot pools 15→48 across 3 AZs + aws-node-termination-handler graceful drain
-- **2026 AZ DR Failover Exercise**: Full staging + live exercise using deployment-affinity AZ exclusion — audit-ready evidence for enterprise contracts (Citi)
+- **2026 AZ DR Failover Exercise**: Full staging + live exercise using deployment-affinity AZ exclusion — audit-ready evidence for enterprise contracts
 - **Cloud Cost Sentinel** _(side project)_: Containerised AWS cost scanner (ECS Fargate + EventBridge + Terraform) detecting idle EC2, EBS, RDS, S3 resources with scheduled HTML reports and SNS alerts
 - **Serverless Product Catalog API** _(side project)_: API Gateway + Lambda (Python) + DynamoDB with event-driven IAM security patterns
 
@@ -46,7 +46,7 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 - Implemented DataDog monitoring: APM across 5 microservices, synthetic monitoring, RDS enhanced metrics, custom alerting
 - Designed and implemented API rate limiting for OAuth endpoints.
 - Coordinated security compliance and vulnerability scanning for enterprise client integrations (Citi)
-- Designed and executed 2026 AZ DR Failover Exercise across staging and live — produced audit-ready DR evidence for enterprise contracts (Citi)
+- Designed and executed 2026 AZ DR Failover Exercise across staging and live — produced audit-ready DR evidence for enterprise contracts.
 - Adopted AI-assisted development workflows (Claude Code, GitHub Copilot) to accelerate IaC authoring, automation scripting, and incident investigation — reducing time-to-solution on infrastructure tasks
 
 **Key Technologies:** AWS (RDS, Aurora, EC2, Lambda, S3, ECR, VPC, IAM, CloudWatch, EventBridge, API Gateway, DynamoDB), Terraform, Python, Kubernetes/EKS, FluxCD/Helm, Docker, DataDog, PostgreSQL, GitHub Actions
