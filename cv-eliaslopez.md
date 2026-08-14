@@ -28,9 +28,22 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 
 ## Professional Experience
 
+### DevOps Engineer
+
+**Brightflag** | Dublin, Ireland | Jul 2026 - Present
+
+- Design, build, and maintain the infrastructure and systems necessary for the development, testing, and deployment of Brightflag software applications
+- Collaborate with cross-functional teams, including developers, QA engineers, and product managers, to define infrastructure requirements, implement solutions, and
+  ensure smooth operations
+- Develop and maintain CI/CD pipelines, automated deployment scripts, and configuration management systems to streamline software releases and updates
+- Implement and maintain observability solutions to proactively identify and resolve system issues, bottlenecks, and performance optimizations
+- Continuously improve the scalability, reliability, and security of our infrastructure by leveraging best practices and implementing appropriate tools and technologies
+- Collaborate with the security team to ensure compliance with security standards and best practices, including vulnerability management and incident response
+- Document system configurations, processes, and troubleshooting procedures to facilitate knowledge sharing and maintain a robust knowledge base
+
 ### **SRE Engineer**
 
-**RapidRatings** | Dublin, Ireland | Sept 2023 - Present
+**RapidRatings** | Dublin, Ireland | Sept 2023 - Jun 2026
 
 - Delivered ~$6,960/year confirmed AWS savings via first-ever cross-account ECR lifecycle policies (dev / live / staging); dev account daily cost $22.63 → $4.13 (-82%), verified via AWS Cost Explorer
 - Consolidated AWS ECR from 2 accounts to 1 across 15+ application repos in a 6-phase rollout; eliminated cross-account replication lag and narrowed OIDC trust to per-repo roles
@@ -44,9 +57,9 @@ Cloud & Platform Engineer with 2+ years of hands-on experience building and impr
 - Eliminated recurring 502 errors on primary internal API (rrio) via uWSGI buffer-size, liveness probe, and `reload-mercy` alignment with Kubernetes `terminationGracePeriodSeconds`
 - Audited live EKS cluster hygiene: 25+ deployments without CPU requests, zero LimitRanges/PDBs/HPAs; authored 3-tier remediation plan
 - Implemented DataDog monitoring: APM across 5 microservices, synthetic monitoring, RDS enhanced metrics, custom alerting
-- Designed and implemented API rate limiting for OAuth endpoints.
+- Designed and implemented API rate limiting for OAuth endpoints
 - Coordinated security compliance and vulnerability scanning for enterprise client integrations
-- Designed and executed 2026 AZ DR Failover Exercise across staging and live — produced audit-ready DR evidence for enterprise contracts.
+- Designed and executed 2026 AZ DR Failover Exercise across staging and live — produced audit-ready DR evidence for enterprise contracts
 - Adopted AI-assisted development workflows (Claude Code, GitHub Copilot) to accelerate IaC authoring, automation scripting, and incident investigation — reducing time-to-solution on infrastructure tasks
 
 **Key Technologies:** AWS (RDS, Aurora, EC2, Lambda, S3, ECR, VPC, IAM, CloudWatch, EventBridge, API Gateway, DynamoDB), Terraform, Python, Kubernetes/EKS, FluxCD/Helm, Docker, DataDog, PostgreSQL, GitHub Actions
