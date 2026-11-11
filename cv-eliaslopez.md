@@ -9,7 +9,7 @@ GitHub: https://github.com/e-lopezc
 
 ## Professional Summary
 
-Cloud & Platform Engineer with 2+ years of hands-on experience building and improving AWS infrastructure, Kubernetes platforms, and automation for production systems, backed by 7+ years of progressive technical experience overall. Delivered ~$6,960/year in confirmed AWS cost savings for dev account, executed zero-downtime PostgreSQL 13→17 migration, and led infrastructure initiatives across Terraform, GitOps, CI/CD, and platform reliability.
+Cloud & Platform Engineer with 3+ years of hands-on experience building and improving AWS infrastructure, Kubernetes platforms, and automation for production systems, backed by 7+ years of progressive technical experience overall. Delivered ~$6,960/year in confirmed AWS cost savings for dev account, executed zero-downtime PostgreSQL 13→17 migration, and led infrastructure initiatives across Terraform, GitOps, CI/CD, and platform reliability.
 
 **Core Competencies:** AWS Infrastructure • FinOps/Cost Engineering • Terraform/IaC • PostgreSQL/RDS/Aurora • Kubernetes/EKS • GitOps/FluxCD • Python Automation • DataDog Monitoring • CI/CD • Security & Compliance
 
@@ -145,4 +145,4 @@ Focus: Cloud infrastructure design, virtualization, resource optimization
 
 ---
 
-_Last Updated: August 2026_
+_Last Updated: November 2026_
